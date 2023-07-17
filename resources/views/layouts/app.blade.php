@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="./css/vendors/flatpickr.min.css" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
@@ -47,14 +46,6 @@
     </div>
 
 </div>
-
-<script src="./js/vendors/alpinejs.min.js" defer></script>
-<script src="./js/vendors/chart.js"></script>
-<script src="./js/vendors/moment.js"></script>
-<script src="./js/vendors/chartjs-adapter-moment.js"></script>
-<script src="./js/dashboard-charts.js"></script>
-<script src="./js/vendors/flatpickr.js"></script>
-<script src="./js/flatpickr-init.js"></script>
 
 </body>
 
